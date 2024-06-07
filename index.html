@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-III WEB</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="sideContainer">
+
+            <div class="closeContainer">
+                <img src="./images/close (1).png" alt="Close" id="closeImg">
+            </div>
+
+            <div class="personalDetail">
+                <div class="myImg">
+                    
+                </div>
+                <div class="myName">
+                    <p>Amrit Acharya</p>
+                </div>
+                <div class="mySocialMedia">
+                   <a href="https://www.facebook.com/share/DCiGUvoQ7RN1K17e/?mibextid=LQQJ4d "  target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://github.com/AmritAcharyaa" target="_blank"> <i class="fa fa-github-square" aria-hidden="true"></i></a>
+                   <a href="https://x.com/Amrit_Official_?t=NNmKi0lqsPHPkYRXyBD93Q&s=35" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.acharyaamrit.com.np/" target="_blank"> <i class="fa fa-link" aria-hidden="true"></i></a>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <hr>
+            <p id="assignmentTopic">
+               <img src="./images/dropdown_white.png" alt="">
+
+                Events in Java Script</p>
+                <hr>
+            <div class="eventTypesContainer">
+                <div class="eventContainers" id="mouseEventContainer">
+                
+                    <p> <img src="./images/dropdown_white.png" alt="DropDown"> Mouse Events</p>
+                    <hr>
+                    <div class="events" id="mouseEvent">
+                        <ul>
+                           <li>click</li>
+                           <li>mouseover</li>
+                           <li>mouseout</li>
+                           <li>mousedown</li>
+                           <li>mouseup</li>
+                           <li>mousemove</li>  
+                        </ul>
+                        <hr>
+                    </div>
+
+                </div>
+                <div class="eventContainers" id="keyEventContainer">
+                   
+                    <p> <img src="./images/dropdown_white.png" alt="DropDown"> KeyBoard Events</p>
+                    <hr>
+                    <div class="events" id="keyboardEvent">
+                        <ul>
+                           <li>Keydown</li>
+                           <li>Keyup</li> 
+                        </ul>
+                        <hr>
+                    </div>
+
+                </div>
+                <div class="eventContainers" id="formEventContainer">
+                   
+                    <p> <img src="./images/dropdown_white.png" alt="DropDown"> Form Events</p>
+                    <hr>
+                    <div class="events" id="formEvent">
+                        <ul>
+                           <li>focus</li>
+                           <li>submit</li>
+                           <li>blur</li>
+                           <li>change</li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                </div>
+                <div class="eventContainers" id="windowEventContainer">
+                   
+                    <p> <img src="./images/dropdown_white.png" alt="DropDown"> Window Events</p>
+                    <hr>
+                    <div class="events" id="windowEvent">
+                        <ul>
+                          <a href="./events.html">  <li>load</li></a>
+                            <li>unload</li>
+                            <li>resize</li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </div>
+
+        </div>
+        <div class="mainContainer">
+            <div class="hamImg">
+                <img src="./images/icons8-hamburger-50 (1).png" alt="Close" id="hamImg">
+
+            </div>
+            
+
+            <div class="mainTopic">
+                <p>Events in JavaScript</p>
+                <span>The change in the state of an object is known as an Event. </span><br>
+                <span>When javascript code is included in HTML, js react over these events and allow the execution. <br> This process of reacting over the events is called Event Handling. Thus, js handles the HTML events via Event Handlers.</span>
+            </div>
+            <div class="logicContainer">
+
+                <div class="eventClassification">
+                    <p></p>
+                    <hr>
+                    
+                </div>
+                <div class="eventsBox">
+                    <p></p>
+                    <div class="firstEvent"></div>
+                    <div class="firstEvent"></div>
+                    <div class="firstEvent"></div>
+                    <div class="firstEvent"></div>
+                    <div class="firstEvent"></div>
+                    <div class="firstEvent"></div>
+                    <div class="firstEvent">
+                        <textarea name="myTextArea" id="myTextArea" cols="25" rows="13"></textarea>
+                    </div>
+                    <div class="firstEvent">
+                        <textarea name="myTextArea2" id="myTextArea2" cols="25" rows="13"></textarea>
+                    </div>
+                    <div class="firstEvent">
+                            <label for="myFocusInput">Enter Here</label>
+                            <input type="text" name="myFocusInput" id="myFocusInput">
+                    </div>
+                    <div class="firstEvent">
+                        <form action="backend.php" method="post" onsubmit="submitFnc(event)">
+
+                        <label for="mySubmitInput">Enter Here</label>
+                        <input type="text" name="mySubmitInput" id="mySubmitInput">
+                        <input type="submit" value="Submit">
+                    </form>
+                    </div>
+                    <div class="firstEvent">
+                        <label for="myOnBlur">Click me</label>
+                        <input type="text" name="myOnBlur">
+                    </div>
+                    <div class="firstEvent">
+                        <form action="backend.php" method="post" onsubmit="submitFnc2(event)"></form>
+                        <label for="myOnChange">Click me</label>
+                        <input type="text" name="myOnChange">
+                        <input type="submit" value="Submit">
+                    </div>
+                    
+                    <span></span>
+               
+                    <Button class="btnHome">Home</Button>
+                
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
